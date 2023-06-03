@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b446e729d64f3480b0c93aaefbcf7a, type: 3}
+  m_Name: BrickVisualYellowSO
+  m_EditorClassIdentifier: 
+  brickVisuals:
+  - healthThreshold:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: 6143d2764f3b2f646b4d5f11af69dd95, type: 2}
+    brickSpriteSO: {fileID: 11400000, guid: e30c4304ba68bdd46ae5240600004194, type: 2}
+  - healthThreshold:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: c83a7dc04784ffd4882aa3eec0801794, type: 2}
+    brickSpriteSO: {fileID: 11400000, guid: ae07452c2bda4f645ac72f33548c578c, type: 2}
+  - healthThreshold:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: ed3c94c48677ab948b62f2db4ada7f9c, type: 2}
+    brickSpriteSO: {fileID: 11400000, guid: 3b0c67dd08c11164eaef769ee20ca435, type: 2}
